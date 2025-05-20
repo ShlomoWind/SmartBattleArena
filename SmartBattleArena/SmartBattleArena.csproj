@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArenaGate.cs" />
+    <Compile Include="BattleRobot.cs" />
     <Compile Include="IAttackable.cs" />
     <Compile Include="IMovable.cs" />
     <Compile Include="Interface1.cs" />
