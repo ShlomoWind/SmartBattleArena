@@ -1,4 +1,5 @@
-﻿using SmartBattleArena;
+﻿using System;
+using SmartBattleArena;
 
 public class BattleRobot : IPowerable, IMovable, IAttackable
 {
@@ -10,5 +11,9 @@ public class BattleRobot : IPowerable, IMovable, IAttackable
     public void TurnOff()
     {
         IsOn = false;
+    }
+    public void MoveTo(string location)
+    {
+        Console.WriteLine($"my location is {location}");
     }
 }
