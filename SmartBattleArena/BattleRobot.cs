@@ -16,7 +16,7 @@ public class BattleRobot : IPowerable, IMovable, IAttackable
     {
         Console.WriteLine($"my location is {location}");
     }
-    public int Health = 100;
+    public int Health { get; set; } = 100;
     public void TakeDamage(int amount)
     {
         Health -= amount;
